@@ -8,9 +8,10 @@ This project explores potential intersections between Buddhist wisdom traditions
 
 The repository includes tools for:
 1. Converting PDFs to text for analysis
-2. Generating embeddings for semantic search
-3. Finding relevant academic citations for specific topics
-4. Supporting the development of an academic paper on Buddhism and AI
+2. Converting EPUBs to text for analysis
+3. Generating embeddings for semantic search
+4. Finding relevant academic citations for specific topics
+5. Supporting the development of an academic paper on Buddhism and AI
 
 ## Tools Included
 
@@ -21,6 +22,14 @@ A Python script that:
 - Uses OCR when necessary for scanned content
 - Generates OpenAI embeddings for semantic search
 - Splits content into appropriate chunks for analysis
+
+### EPUB to Text Converter
+
+A Python notebook that:
+- Extracts text from EPUB e-books
+- Converts HTML content to clean text
+- Generates OpenAI embeddings for semantic search
+- Provides functions for searching within book content
 
 ### Citation Assistant
 
