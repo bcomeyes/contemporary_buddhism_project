@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Large data files
+*.pdf
+*.txt
+*.json
+*.docx
+
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
